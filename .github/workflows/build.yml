@@ -10,7 +10,7 @@ on:
 jobs:
   build-windows:
     name: Build Windows (VST3 & Standalone)
-    runs-on: windows-latest
+    runs-on: windows-2022
 
     steps:
       - name: Checkout repository
@@ -18,13 +18,16 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Configure CMake (MSVC)
+      - name: Initialize MSVC Developer Environment
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Configure CMake (MSVC + Ninja)
         run: |
-          cmake -B build -G "Visual Studio 17 2022" -A x64
+          cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 
       - name: Build Release
         run: |
-          cmake --build build --config Release --parallel
+          ninja -C build
 
       - name: Package Windows Artifacts
         run: |
