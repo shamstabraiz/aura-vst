@@ -1,0 +1,58 @@
+{
+  "Name": "AuraCompressor",
+  "Version": "1.0.0",
+  "Factory Info": {
+    "Vendor": "AuraDSP",
+    "URL": "",
+    "E-Mail": "",
+    "Flags": {
+      "Unicode": true,
+      "Classes Discardable": false,
+      "Component Non Discardable": false,
+    },
+  },
+  "Classes": [
+    {
+      "CID": "ABCDEF019182FAEB4175726141636F6D",
+      "Category": "Audio Module Class",
+      "Name": "Aura Compressor",
+      "Vendor": "AuraDSP",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.7.12",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF011234ABCD4175726141636F6D",
+      "Category": "Component Controller Class",
+      "Name": "Aura Compressor",
+      "Vendor": "AuraDSP",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.7.12",
+      "Sub Categories": [
+        "Fx",
+      ],
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+    {
+      "CID": "ABCDEF01C0DEF00D4175726141636F6D",
+      "Category": "Plugin Compatibility Class",
+      "Name": "Aura Compressor",
+      "Vendor": "AuraDSP",
+      "Version": "1.0.0",
+      "SDKVersion": "VST 3.7.12",
+      "Class Flags": 0,
+      "Cardinality": 2147483647,
+      "Snapshots": [
+      ],
+    },
+  ],
+}
