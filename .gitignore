@@ -1,0 +1,19 @@
+# Build directories
+build/
+build-*/
+bin/
+dist/
+
+# CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ninja
+.ninja_deps
+.ninja_log
+
+# OS-specific
+.DS_Store
+Thumbs.db

@@ -56,11 +56,11 @@ vst/
 
 The binaries have been compiled in **Release mode**:
 
-| Format | File Path |
-|---|---|
-| **VST3 Plugin Bundle** | `build/AuraCompressor_artefacts/Release/VST3/AuraCompressor.vst3` |
-| **Installed VST3** | `~/.vst3/AuraCompressor.vst3` |
-| **Standalone App** | `build/AuraCompressor_artefacts/Release/Standalone/AuraCompressor` |
+| Format | File Path | Default Linux Search Path |
+|---|---|---|
+| **LV2 Plugin Bundle** *(Native for LMMS)* | `build/AuraCompressor_artefacts/Release/LV2/AuraCompressor.lv2` | `~/.lv2/AuraCompressor.lv2` |
+| **VST3 Plugin Bundle** | `build/AuraCompressor_artefacts/Release/VST3/AuraCompressor.vst3` | `~/.vst3/AuraCompressor.vst3` |
+| **Standalone App** | `build/AuraCompressor_artefacts/Release/Standalone/AuraCompressor` | — |
 
 ### 1. Standalone Application (Test without a DAW)
 You can run the standalone compressor directly to process microphone, line-in, or audio interface input live with the full UI:

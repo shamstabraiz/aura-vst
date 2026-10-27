@@ -71,6 +71,7 @@ jobs:
         run: |
           mkdir dist
           tar -czf dist/AuraCompressor_Linux_VST3.tar.gz -C build/AuraCompressor_artefacts/Release/VST3 AuraCompressor.vst3
+          tar -czf dist/AuraCompressor_Linux_LV2.tar.gz -C build/AuraCompressor_artefacts/Release/LV2 AuraCompressor.lv2
           tar -czf dist/AuraCompressor_Linux_Standalone.tar.gz -C build/AuraCompressor_artefacts/Release/Standalone AuraCompressor
 
       - name: Upload Linux Artifacts

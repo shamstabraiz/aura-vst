@@ -15,6 +15,7 @@ juce_add_plugin(AuraCompressor
     PLUGIN_NAME "Aura Compressor"
     PRODUCT_NAME "AuraCompressor"
     FORMATS VST3 Standalone LV2
+    LV2URI "https://auradsp.com/plugins/auracompressor"
     PLUGIN_CODE Acom
     PLUGIN_MANUFACTURER_CODE Aura
     COPY_PLUGIN_AFTER_BUILD FALSE
